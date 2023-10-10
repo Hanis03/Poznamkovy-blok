@@ -1,2 +1,3 @@
 # Poznamkovy-blok
-Jednoduchá poznámková aplikace
+
+- Zde bude pokus o vytvoření jednoduché poznámkové aplikace
