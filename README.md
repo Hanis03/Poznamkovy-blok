@@ -5,9 +5,9 @@ Tato aplikace je jednoduchý správce souborů vytvořený pomocí Electronu. Um
 ## Funkce
 
 - Otevření souboru
-- Ukládání souboru
+- Ukládání souboru (skrz klávesové zkratku)
 - Procházení historie nedávno otevřených souborů
-- Klávesové zkratky pro rychlou navigaci
+- Klávesové zkratky pro rychlou navigaci (např.: Ctrl (cmd) + S, Ctrl (cmd) + o)
 
 ## Jak používat
 
