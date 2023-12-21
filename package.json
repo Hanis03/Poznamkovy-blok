@@ -1,0 +1,18 @@
+{
+  "name": "poznamkovy-blok",
+  "version": "1.0.0",
+  "description": "Poznámkový blok",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [],
+  "author": "Jan Vítek",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^9.0.5"
+  },
+  "dependencies": {
+    "fs-extra": "^9.0.1"
+  }
+}
