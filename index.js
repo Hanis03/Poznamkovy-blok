@@ -29,7 +29,7 @@ async function build_app() {
 
   let menu_list = [
     {
-      label: "Soubor",
+      label: "File",
       submenu: [
         {
           label: "Otevřít soubor...",
@@ -41,14 +41,17 @@ async function build_app() {
           label: "Otevřít poslední...",
           submenu: submenuOfOpenRecent,
         },
-        {
-          label: "Uložit",
-          click: function () {
-            app_window.webContents.send('trigger-save');
-          }
-        }
       ],
     },
+    {
+      label: "Help",
+      submenu: [
+        {
+          label: "Uložení ",
+          accelerator: "CmdOrCtrl+S",
+        }
+      ],
+    }
   ];
 
   const menu_design2 = Menu.buildFromTemplate(menu_list);
