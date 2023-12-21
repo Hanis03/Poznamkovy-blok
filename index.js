@@ -33,6 +33,7 @@ async function build_app() {
       submenu: [
         {
           label: "Otevřít soubor...",
+          accelerator: "CmdOrCtrl+O",
           click: function () {
             fileManager.openFileWindow();
           },
