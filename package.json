@@ -1,6 +1,6 @@
 {
   "name": "poznamkovy-blok",
-  "version": "0.2.1",
+  "version": "0.4.1",
   "description": "Poznámkový blok",
   "main": "index.js",
   "scripts": {
